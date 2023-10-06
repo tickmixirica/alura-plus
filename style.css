@@ -16,6 +16,8 @@ font-weight: 400;
 background-image: url("Background.png");
 background-repeat:no-repeat ;
 background-size: contain;
+align-items: center;
+text-align: center;
 }
 *{
 margin: 0;
@@ -31,6 +33,7 @@ grid-template-columns: 40% 40%;
    border-radius: 5px;
    padding: 1em;
    color: var(--branco-principal);
+   margin-bottom: 1em;
    display: block;
 }
 .botao_secundario{
@@ -44,4 +47,11 @@ color: var(--cinza-secundario);
 .container__title{
 font-size: 28px;
 font-weight: 700;
+}
+
+.container__imagem{
+margin: 1em 0 2em 0;
+}
+.container__caixa{
+margin: 0 6em;
 }
